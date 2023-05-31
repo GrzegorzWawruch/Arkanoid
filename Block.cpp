@@ -55,7 +55,4 @@ Vector2f Block::size()
 {
     return shape.getSize();
 }
-void Block::update()
-{
 
-}

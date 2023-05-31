@@ -245,4 +245,6 @@ CMakeFiles/projekt.dir/main.cpp.obj: \
  C:\Users\wawru\CLionProjects\Arkanoid\Ball.h \
  C:\Users\wawru\CLionProjects\Arkanoid\Paddle.h \
  C:\Users\wawru\CLionProjects\Arkanoid\Menu.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Block.h
+ C:\Users\wawru\CLionProjects\Arkanoid\Block.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\explosiveblock.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream

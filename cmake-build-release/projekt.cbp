@@ -82,12 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Arkanoid.cpp">
-			<Option target="projekt"/>
-		</Unit>
-		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Arkanoid.h">
-			<Option target="projekt"/>
-		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Ball.cpp">
 			<Option target="projekt"/>
 		</Unit>
@@ -110,6 +104,12 @@
 			<Option target="projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.h">
 			<Option target="projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/main.cpp">

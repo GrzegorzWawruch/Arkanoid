@@ -59,5 +59,8 @@ void Paddle::reset_paddle()
 {
     paddle_velocity = 7.0f;
     shape.setPosition(825, 950);
-
+}
+void Paddle::restore_velocity()
+{
+    paddle_velocity = 7.0f;
 }

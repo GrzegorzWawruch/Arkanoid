@@ -128,26 +128,11 @@ CMakeFiles/projekt.dir/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Block.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Block.cpp -o CMakeFiles\projekt.dir\Block.cpp.s
 
-CMakeFiles/projekt.dir/Arkanoid.cpp.obj: CMakeFiles/projekt.dir/flags.make
-CMakeFiles/projekt.dir/Arkanoid.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/Arkanoid.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Arkanoid.cpp
-CMakeFiles/projekt.dir/Arkanoid.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projekt.dir/Arkanoid.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Arkanoid.cpp.obj -MF CMakeFiles\projekt.dir\Arkanoid.cpp.obj.d -o CMakeFiles\projekt.dir\Arkanoid.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Arkanoid.cpp
-
-CMakeFiles/projekt.dir/Arkanoid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Arkanoid.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\Arkanoid.cpp > CMakeFiles\projekt.dir\Arkanoid.cpp.i
-
-CMakeFiles/projekt.dir/Arkanoid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Arkanoid.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Arkanoid.cpp -o CMakeFiles\projekt.dir\Arkanoid.cpp.s
-
 CMakeFiles/projekt.dir/Menu.cpp.obj: CMakeFiles/projekt.dir/flags.make
 CMakeFiles/projekt.dir/Menu.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
 CMakeFiles/projekt.dir/Menu.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Menu.cpp
 CMakeFiles/projekt.dir/Menu.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projekt.dir/Menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projekt.dir/Menu.cpp.obj"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Menu.cpp.obj -MF CMakeFiles\projekt.dir\Menu.cpp.obj.d -o CMakeFiles\projekt.dir\Menu.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Menu.cpp
 
 CMakeFiles/projekt.dir/Menu.cpp.i: cmake_force
@@ -158,14 +143,29 @@ CMakeFiles/projekt.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Menu.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Menu.cpp -o CMakeFiles\projekt.dir\Menu.cpp.s
 
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: CMakeFiles/projekt.dir/flags.make
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.cpp
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projekt.dir/explosiveblock.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/explosiveblock.cpp.obj -MF CMakeFiles\projekt.dir\explosiveblock.cpp.obj.d -o CMakeFiles\projekt.dir\explosiveblock.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\explosiveblock.cpp
+
+CMakeFiles/projekt.dir/explosiveblock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/explosiveblock.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\explosiveblock.cpp > CMakeFiles\projekt.dir\explosiveblock.cpp.i
+
+CMakeFiles/projekt.dir/explosiveblock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/explosiveblock.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\explosiveblock.cpp -o CMakeFiles\projekt.dir\explosiveblock.cpp.s
+
 # Object files for target projekt
 projekt_OBJECTS = \
 "CMakeFiles/projekt.dir/main.cpp.obj" \
 "CMakeFiles/projekt.dir/Ball.cpp.obj" \
 "CMakeFiles/projekt.dir/Paddle.cpp.obj" \
 "CMakeFiles/projekt.dir/Block.cpp.obj" \
-"CMakeFiles/projekt.dir/Arkanoid.cpp.obj" \
-"CMakeFiles/projekt.dir/Menu.cpp.obj"
+"CMakeFiles/projekt.dir/Menu.cpp.obj" \
+"CMakeFiles/projekt.dir/explosiveblock.cpp.obj"
 
 # External object files for target projekt
 projekt_EXTERNAL_OBJECTS =
@@ -174,8 +174,8 @@ projekt.exe: CMakeFiles/projekt.dir/main.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Ball.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Paddle.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Block.cpp.obj
-projekt.exe: CMakeFiles/projekt.dir/Arkanoid.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Menu.cpp.obj
+projekt.exe: CMakeFiles/projekt.dir/explosiveblock.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/build.make
 projekt.exe: C:/SFML/lib/libsfml-system.a
 projekt.exe: C:/SFML/lib/libsfml-window.a
