@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.24"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -39,11 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "projekt::@6890427a1f51a3e7e1df",
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-793ceb8d9a191b4edd3b.json
-					"jsonFile" : "target-projekt-Debug-960b33fc01bed47a5746.json",
-========
-					"jsonFile" : "target-projekt-Release-aba947850311ab070368.json",
->>>>>>>> origin/main:cmake-build-release/.cmake/api/v1/reply/codemodel-v2-872ec5f04a6f43b7f9ab.json
+					"jsonFile" : "target-projekt-Release-d82debdebdf9f1e5b14a.json",
 					"name" : "projekt",
 					"projectIndex" : 0
 				}
@@ -53,11 +49,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-<<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-793ceb8d9a191b4edd3b.json
-		"build" : "C:/Users/wawru/CLionProjects/Arkanoid/cmake-build-debug",
-========
 		"build" : "C:/Users/wawru/CLionProjects/Arkanoid/cmake-build-release",
->>>>>>>> origin/main:cmake-build-release/.cmake/api/v1/reply/codemodel-v2-872ec5f04a6f43b7f9ab.json
 		"source" : "C:/Users/wawru/CLionProjects/Arkanoid"
 	},
 	"version" : 
