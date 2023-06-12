@@ -16,9 +16,6 @@ If you want to play you must download code from repository. After donwload you c
 ## License 
 https://choosealicense.com/licenses/gpl-3.0/
 
-![licence-GNU GPLv3-red](https://choosealicense.com/licenses/gpl-3.0/)
-https://img.shields.io/github/license/GrzegorzWawruch/Arkanoid?color=red&label=GNU%20GPLv3
-
 ## Credits
 https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/
 https://www.sfml-dev.org/download/sfml/2.5.1/
