@@ -21,20 +21,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="666b959d-4b4e-43c0-8fb5-cd221a2a99fd" name="Changes" comment="probably final version">
-      <changelist_data name="Radianek" email="272315@student.pwr.edu.pl" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-a9d00821545d8abbf1a5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cache-v2-ed58a1b18c1db1cc47e4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-0deed222e94a1a5f2e79.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-c80efb351b8115ec8ab3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-269cd23f254b02351e90.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2023-05-27T22-59-40-0966.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/index-2023-06-06T13-47-45-0217.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/target-projekt-Release-d82debdebdf9f1e5b14a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/explosiveblock.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/explosiveblock.cpp.obj.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-793ceb8d9a191b4edd3b.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-793ceb8d9a191b4edd3b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-952d52d6fafbe1ded9e7.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/.cmake/api/v1/reply/codemodel-v2-952d52d6fafbe1ded9e7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/projekt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/projekt.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +57,8 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="25e95bf4-dc30-4b65-bdf4-cf6dccca2eff" />
-        <option name="url" value="https://github.com/Radianek/Projekt_kocowy.git" />
+        <option name="accountId" value="001af3f4-070c-45da-910f-7ef29d593e1f" />
+        <option name="url" value="https://github.com/GrzegorzWawruch/Arkanoid" />
       </UrlAndAccount>
     </option>
   </component>
@@ -103,16 +93,16 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propDebugger&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="projekt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="projekt" TARGET_NAME="projekt" CONFIG_NAME="Release" RUN_TARGET_PROJECT_NAME="projekt" RUN_TARGET_NAME="projekt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -172,7 +162,9 @@
       <workItem from="1685269488794" duration="6483000" />
       <workItem from="1685524746487" duration="10708000" />
       <workItem from="1686002128714" duration="968000" />
-      <workItem from="1686032568110" duration="31744000" />
+      <workItem from="1686032568110" duration="33022000" />
+      <workItem from="1686070796008" duration="634000" />
+      <workItem from="1686568357205" duration="2189000" />
     </task>
     <task id="LOCAL-00001" summary="piewszy commit">
       <created>1683474850117</created>
@@ -349,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686067742097</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="probably final version">
+      <created>1686068435552</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686068435552</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +365,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
