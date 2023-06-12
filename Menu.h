@@ -13,7 +13,7 @@ using namespace std;
 class Menu
 {
 public:
-    Text mainmenu[3];   //array containing the main menu
+    Text main_menu[3];   //array containing the main menu
     Text end_menu[3];  // array containing the final menu
     Menu(float width, float  height);  // menu constructor
     void draw(RenderWindow& window);        //function that draw main menu window
@@ -22,7 +22,6 @@ public:
     void MoveDown();    //function responsible for change slection when press down arrow
     void MoveLeft();    //function responsible for change slection when press left arrow
     void MoveRight();   //function responsible for change slection when press right arrow
-    void setSelected(int n);
     void all_on_white();    //function responsible change text color on white
     int pressed()       //function that returns the selected options in the menu
     {

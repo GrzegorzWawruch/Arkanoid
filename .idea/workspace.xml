@@ -20,11 +20,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="666b959d-4b4e-43c0-8fb5-cd221a2a99fd" name="Changes" comment="probably final version">
+    <list default="true" id="666b959d-4b4e-43c0-8fb5-cd221a2a99fd" name="Changes" comment="Update README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/Menu.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/CMakeFiles/projekt.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-release/projekt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-release/projekt.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/explosiveblock.h" beforeDir="false" afterPath="$PROJECT_DIR$/explosiveblock.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +168,7 @@
       <workItem from="1686002128714" duration="968000" />
       <workItem from="1686032568110" duration="33022000" />
       <workItem from="1686070796008" duration="634000" />
-      <workItem from="1686568357205" duration="2189000" />
+      <workItem from="1686568357205" duration="7287000" />
     </task>
     <task id="LOCAL-00001" summary="piewszy commit">
       <created>1683474850117</created>
@@ -348,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686068435552</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update README.md">
+      <created>1686572861551</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686572861551</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +403,7 @@
     <MESSAGE value="odbijanie" />
     <MESSAGE value="-edycja grafiki" />
     <MESSAGE value="probably final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="probably final version" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
 </project>
