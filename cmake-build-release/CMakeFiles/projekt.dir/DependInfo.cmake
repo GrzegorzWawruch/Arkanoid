@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/wawru/CLionProjects/Arkanoid/Block.cpp" "CMakeFiles/projekt.dir/Block.cpp.obj" "gcc" "CMakeFiles/projekt.dir/Block.cpp.obj.d"
   "C:/Users/wawru/CLionProjects/Arkanoid/Menu.cpp" "CMakeFiles/projekt.dir/Menu.cpp.obj" "gcc" "CMakeFiles/projekt.dir/Menu.cpp.obj.d"
   "C:/Users/wawru/CLionProjects/Arkanoid/Paddle.cpp" "CMakeFiles/projekt.dir/Paddle.cpp.obj" "gcc" "CMakeFiles/projekt.dir/Paddle.cpp.obj.d"
-  "C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.cpp" "CMakeFiles/projekt.dir/explosiveblock.cpp.obj" "gcc" "CMakeFiles/projekt.dir/explosiveblock.cpp.obj.d"
+  "C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp" "CMakeFiles/projekt.dir/explosiveblock.cpp.obj" "gcc" "CMakeFiles/projekt.dir/explosiveblock.cpp.obj.d"
   "C:/Users/wawru/CLionProjects/Arkanoid/main.cpp" "CMakeFiles/projekt.dir/main.cpp.obj" "gcc" "CMakeFiles/projekt.dir/main.cpp.obj.d"
   )
 

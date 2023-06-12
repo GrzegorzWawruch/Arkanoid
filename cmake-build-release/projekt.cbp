@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Block.h">
 			<Option target="projekt"/>
 		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h">
+			<Option target="projekt"/>
+		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Menu.cpp">
 			<Option target="projekt"/>
 		</Unit>
@@ -104,12 +110,6 @@
 			<Option target="projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h">
-			<Option target="projekt"/>
-		</Unit>
-		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.cpp">
-			<Option target="projekt"/>
-		</Unit>
-		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.h">
 			<Option target="projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/main.cpp">

@@ -993,8 +993,8 @@ CMakeFiles/projekt.dir/Paddle.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Pad
   C:/SFML/include/SFML/Graphics/Text.hpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
 
-CMakeFiles/projekt.dir/explosiveblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.cpp \
-  C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.h \
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp \
+  C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Block.h \
   C:/SFML/include/SFML/Graphics.hpp \
   C:/SFML/include/SFML/Window.hpp \
@@ -1489,17 +1489,35 @@ CMakeFiles/projekt.dir/main.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/main.
   C:/SFML/include/SFML/Graphics/Sprite.hpp \
   C:/SFML/include/SFML/Graphics/Text.hpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/chrono \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ratio \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/parse_numbers.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/thread \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_raw_storage_iter.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/concurrence.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/unique_ptr.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/refwrap.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Ball.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Menu.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Block.h \
-  C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.h \
+  C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream
 
 
 C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
 C:/Users/wawru/CLionProjects/Arkanoid/Ball.cpp:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
 
@@ -1729,6 +1747,8 @@ C:/mingw64/x86_64-w64-mingw32/include/process.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/parse_numbers.h:
+
 C:/SFML/include/SFML/System/Thread.inl:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed/limits.h:
@@ -1861,6 +1881,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_algo.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/algorithmfwd.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_heap.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_tempbuf.h:
@@ -1895,9 +1917,13 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iterator:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/istream:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/thread:
+
 C:/SFML/include/SFML/Window/Context.hpp:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/istream.tcc:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h:
 
 C:/SFML/include/SFML/Graphics/Glsl.hpp:
 
@@ -1909,6 +1935,8 @@ C:/SFML/include/SFML/System/Thread.hpp:
 
 C:/SFML/include/SFML/System/ThreadLocal.hpp:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h:
+
 C:/SFML/include/SFML/System/ThreadLocalPtr.hpp:
 
 C:/SFML/include/SFML/System/ThreadLocalPtr.inl:
@@ -1918,6 +1946,8 @@ C:/SFML/include/SFML/System/Vector2.hpp:
 C:/SFML/include/SFML/System/Vector2.inl:
 
 C:/SFML/include/SFML/System/Vector3.inl:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h:
 
 C:/SFML/include/SFML/Window/Clipboard.hpp:
 
@@ -1997,10 +2027,26 @@ C:/Users/wawru/CLionProjects/Arkanoid/Menu.h:
 
 C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h:
 
-C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.cpp:
+C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp:
 
-C:/Users/wawru/CLionProjects/Arkanoid/explosiveblock.h:
+C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream:
 
 C:/Users/wawru/CLionProjects/Arkanoid/main.cpp:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/chrono:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ratio:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_raw_storage_iter.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/concurrence.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/refwrap.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h:

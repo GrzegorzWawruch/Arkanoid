@@ -1,6 +1,6 @@
-CMakeFiles/projekt.dir/explosiveblock.cpp.obj: \
- C:\Users\wawru\CLionProjects\Arkanoid\explosiveblock.cpp \
- C:\Users\wawru\CLionProjects\Arkanoid\explosiveblock.h \
+CMakeFiles/projekt.dir/Explosiveblock.cpp.obj: \
+ C:\Users\wawru\CLionProjects\Arkanoid\Explosiveblock.cpp \
+ C:\Users\wawru\CLionProjects\Arkanoid\Explosiveblock.h \
  C:\Users\wawru\CLionProjects\Arkanoid\Block.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \

@@ -4,6 +4,7 @@
 
 #ifndef PROJEKT_BLOCK_H
 #define PROJEKT_BLOCK_H
+
 #include <SFML/Graphics.hpp>
 
 using namespace sf;
@@ -11,7 +12,7 @@ using namespace sf;
 class Block {
 public:
     Block(float pos_X, float pos_Y, float width, float height); //block constructor
-    const RectangleShape& getShape() const;     // function that return block shape
+    const RectangleShape &get_shape() const;     // function that return block shape
     Vector2f position();        //vector that stores the coordinates of the blocks
     Vector2f size();     //vector that stores the size of the blocks
 
@@ -29,7 +30,7 @@ public:
 
 private:
 
-    void draw(RenderTarget& target, RenderStates state)const; //function that draw a block
+    void draw(RenderTarget &target, RenderStates state) const; //function that draw a block
 };
 
 
