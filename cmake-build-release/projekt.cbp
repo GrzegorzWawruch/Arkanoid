@@ -100,10 +100,22 @@
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h">
 			<Option target="projekt"/>
 		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h">
+			<Option target="projekt"/>
+		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Menu.cpp">
 			<Option target="projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Menu.h">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Movingblock.cpp">
+			<Option target="projekt"/>
+		</Unit>
+		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Movingblock.h">
 			<Option target="projekt"/>
 		</Unit>
 		<Unit filename="C:/Users/wawru/CLionProjects/Arkanoid/Paddle.cpp">

@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Update_at_13_06_2023_12_40_[Changes]" date="1686652820092" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_12_40_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 13.06.2023 12:40 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/projekt.exe" />
+    <option name="AFTER_PATH" value="cmake-build-release/projekt.exe" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_12_40_[Changes]/projekt.exe" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/CMakeFiles/projekt.dir/main.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-release/CMakeFiles/projekt.dir/main.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_12_40_[Changes]/main.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/CMakeFiles/projekt.dir/objects.a" />
+    <option name="AFTER_PATH" value="cmake-build-release/CMakeFiles/projekt.dir/objects.a" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_12_40_[Changes]/objects.a" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/CMakeFiles/projekt.dir/Ball.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-release/CMakeFiles/projekt.dir/Ball.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_12_40_[Changes]/Ball.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-release/Testing/Temporary/LastTest.log" />
+    <option name="AFTER_PATH" value="cmake-build-release/Testing/Temporary/LastTest.log" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_06_2023_12_40_[Changes]/LastTest.log" />
+  </binary>
+</changelist>
