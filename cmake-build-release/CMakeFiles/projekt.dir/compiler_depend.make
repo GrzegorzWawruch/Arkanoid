@@ -263,7 +263,10 @@ CMakeFiles/projekt.dir/Ball.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Ball.
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h
+  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
+  C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h \
+  C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h \
+  C:/Users/wawru/CLionProjects/Arkanoid/Block.h
 
 CMakeFiles/projekt.dir/Block.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Block.cpp \
   C:/Users/wawru/CLionProjects/Arkanoid/Block.h \
@@ -511,8 +514,7 @@ CMakeFiles/projekt.dir/Block.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Bloc
   C:/SFML/include/SFML/Graphics/Glsl.inl \
   C:/SFML/include/SFML/Graphics/Sprite.hpp \
   C:/SFML/include/SFML/Graphics/Text.hpp \
-  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
-  C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h
+  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
 
 CMakeFiles/projekt.dir/Explosiveblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp \
   C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h \
@@ -762,7 +764,6 @@ CMakeFiles/projekt.dir/Explosiveblock.cpp.obj: C:/Users/wawru/CLionProjects/Arka
   C:/SFML/include/SFML/Graphics/Sprite.hpp \
   C:/SFML/include/SFML/Graphics/Text.hpp \
   C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
-  C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream
 
 CMakeFiles/projekt.dir/ICollidable.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.cpp \
@@ -1263,8 +1264,7 @@ CMakeFiles/projekt.dir/Movingblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoi
   C:/SFML/include/SFML/Graphics/Glsl.inl \
   C:/SFML/include/SFML/Graphics/Sprite.hpp \
   C:/SFML/include/SFML/Graphics/Text.hpp \
-  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
-  C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h
+  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
 
 CMakeFiles/projekt.dir/Paddle.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Paddle.cpp \
   C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h \
@@ -1779,8 +1779,8 @@ CMakeFiles/projekt.dir/main.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/main.
   C:/Users/wawru/CLionProjects/Arkanoid/Ball.h \
   C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h \
-  C:/Users/wawru/CLionProjects/Arkanoid/Menu.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Block.h \
+  C:/Users/wawru/CLionProjects/Arkanoid/Menu.h \
   C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
   C:/Users/wawru/CLionProjects/Arkanoid/Movingblock.h
@@ -2310,6 +2310,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h:
 
+C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h:
+
 C:/Users/wawru/CLionProjects/Arkanoid/Block.h:
 
 C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp:
@@ -2327,7 +2329,5 @@ C:/Users/wawru/CLionProjects/Arkanoid/Menu.h:
 C:/Users/wawru/CLionProjects/Arkanoid/Movingblock.cpp:
 
 C:/Users/wawru/CLionProjects/Arkanoid/Movingblock.h:
-
-C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h:
 
 C:/Users/wawru/CLionProjects/Arkanoid/main.cpp:

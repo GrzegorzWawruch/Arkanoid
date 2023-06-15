@@ -265,6 +265,9 @@ CMakeFiles/projekt.dir/Ball.cpp.obj
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h
+ C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h
+ C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h
+ C:/Users/wawru/CLionProjects/Arkanoid/Block.h
 
 CMakeFiles/projekt.dir/Block.cpp.obj
  C:/Users/wawru/CLionProjects/Arkanoid/Block.cpp
@@ -514,7 +517,6 @@ CMakeFiles/projekt.dir/Block.cpp.obj
  C:/SFML/include/SFML/Graphics/Sprite.hpp
  C:/SFML/include/SFML/Graphics/Text.hpp
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
- C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h
 
 CMakeFiles/projekt.dir/Explosiveblock.cpp.obj
  C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp
@@ -765,7 +767,6 @@ CMakeFiles/projekt.dir/Explosiveblock.cpp.obj
  C:/SFML/include/SFML/Graphics/Sprite.hpp
  C:/SFML/include/SFML/Graphics/Text.hpp
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
- C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream
 
 CMakeFiles/projekt.dir/ICollidable.cpp.obj
@@ -1270,7 +1271,6 @@ CMakeFiles/projekt.dir/Movingblock.cpp.obj
  C:/SFML/include/SFML/Graphics/Sprite.hpp
  C:/SFML/include/SFML/Graphics/Text.hpp
  C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
- C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h
 
 CMakeFiles/projekt.dir/Paddle.cpp.obj
  C:/Users/wawru/CLionProjects/Arkanoid/Paddle.cpp
@@ -1787,8 +1787,8 @@ CMakeFiles/projekt.dir/main.cpp.obj
  C:/Users/wawru/CLionProjects/Arkanoid/Ball.h
  C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.h
  C:/Users/wawru/CLionProjects/Arkanoid/Paddle.h
- C:/Users/wawru/CLionProjects/Arkanoid/Menu.h
  C:/Users/wawru/CLionProjects/Arkanoid/Block.h
+ C:/Users/wawru/CLionProjects/Arkanoid/Menu.h
  C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.h
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream
  C:/Users/wawru/CLionProjects/Arkanoid/Movingblock.h

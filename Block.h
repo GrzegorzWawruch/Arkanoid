@@ -6,7 +6,6 @@
 #define PROJEKT_BLOCK_H
 
 #include <SFML/Graphics.hpp>
-#include "ICollidable.h"
 using namespace sf;
 
 class Block{

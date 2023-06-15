@@ -18,7 +18,7 @@ bool exist_Collision(C1 &A, C2 &B) {
            && A.bottom() >= B.top() && A.top() <= B.bottom();
 } //declaration function that describe collision
 
-bool collision(Paddle &paddle, Ball &ball) {
+/*bool collision(Paddle &paddle, Ball &ball) {
     if (!exist_Collision(paddle, ball)) {
         return false;
     }
@@ -33,7 +33,7 @@ bool collision(Paddle &paddle, Ball &ball) {
 
 
     return true;
-}//declaration function that describe collision between ball and paddle
+}*///declaration function that describe collision between ball and paddle
 int score = 0;
 
 Explosiveblock exblock(500, 500, 100, 60);
@@ -75,6 +75,7 @@ bool collision(Block &block, Ball &ball) {
 }   //declaration function that describe collision between ball and blocks
 
 
+
 int main() {
 
 
@@ -107,6 +108,7 @@ int main() {
     unsigned blocks_x{15}, blocks_y{4}, block_width{100}, block_height{60};
     vector<Block> blocks;
     exblock.draw_number();
+
     for (int i = 0; i < blocks_y; i++) {
         for (int j = 0; j < blocks_x; j++) {
             if (i == exblock.draw_number_y && j == exblock.draw_number_x) {
@@ -119,8 +121,7 @@ int main() {
             }
         }
     } //block making loop
-
-
+    ICollidable* ballPtr = &ball;
     while (true) //main loop
     {
         if (menu_options == 1) {
@@ -179,7 +180,7 @@ int main() {
                         ball.update();
                         paddle.update();
                         moveblock.update();
-                        collision(paddle, ball);
+                        //collision(paddle, ball);
                         for (auto &block: blocks) {
 
                             if (collision(block, ball)) {

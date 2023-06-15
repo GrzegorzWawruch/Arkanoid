@@ -13,12 +13,12 @@ Ball::Ball(float pos_X, float pos_Y) {
     shape.setOrigin(this->ball_radius, this->ball_radius);
 }
 
-void Ball::collide(ICollidable *Other)
+/*void Ball::collide(ICollidable *Other)
 {
     if(Block* block = dynamic_cast<Block*>(Other)){
 
     }
-}
+}*/
 
 const CircleShape &Ball::get_shape() const {
     return shape;
