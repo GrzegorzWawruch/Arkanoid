@@ -427,6 +427,7 @@ int main() {
                             paddle.reset_paddle();
                         }
                         paddle.restore_velocity();
+                        powerup.restore_velocity();
                         if (sf::Keyboard::isKeyPressed(sf::Keyboard::P)) {
                             ball.stop_game();
                             moveblock.movingblock_stop_game();
@@ -437,6 +438,7 @@ int main() {
                             {
 
                                 paddle.stop_paddle();
+                                powerup.stop();
                                 sf::Font font;
                                 moveblock.stopped = true;
                                 if (!font.loadFromFile("Bambuchinnox.ttf")) {

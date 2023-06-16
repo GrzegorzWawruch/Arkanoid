@@ -157,7 +157,7 @@ public:
        * The velocity of the power-up.
        * Determines how fast the power-up moves.
        */
-    const float powerups_velocity{0.7f};
+    float powerups_velocity{0.7f};
 
     /**
      * The current velocity vector of the power-up.
@@ -171,6 +171,15 @@ public:
          */
     sf::Color color;
 
+        /**
+         * Stop the power-up.
+        */
+    void stop();
+
+        /**
+         * Restore the power-up velocity.
+        */
+    void restore_velocity();
 
 };
 

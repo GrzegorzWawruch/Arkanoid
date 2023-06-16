@@ -73,3 +73,9 @@ void Powerups::not_activated() {
 sf::Vector2f Powerups::getPosition() {
     return shape.getPosition();
 }
+void Powerups::stop(){
+    powerups_velocity = 0;
+}
+void Powerups::restore_velocity() {
+    powerups_velocity = 0.7f;
+}
