@@ -8,6 +8,7 @@
 #include "Block.h"
 #include "Explosiveblock.h"
 #include "Movingblock.h"
+#include "Powerups.h"
 
 using namespace std;
 using namespace sf;
@@ -16,9 +17,17 @@ template<class C1, class C2>
 bool exist_Collision(C1 &A, C2 &B) {
     return A.right() >= B.left() && A.left() <= B.right()
            && A.bottom() >= B.top() && A.top() <= B.bottom();
-} //declaration function that describe collision
+}
 
-/*bool collision(Paddle &paddle, Ball &ball) {
+
+/**
+ * Checks for a collision between a paddle and a ball.
+ *
+ * @param paddle the paddle object
+ * @param ball the ball object
+ * @return true if a collision occurred and updates the ball's position accordingly, false otherwise
+ */
+bool collision(Paddle &paddle, Ball &ball) {
     if (!exist_Collision(paddle, ball)) {
         return false;
     }
@@ -33,17 +42,37 @@ bool exist_Collision(C1 &A, C2 &B) {
 
 
     return true;
-}*///declaration function that describe collision between ball and paddle
+}//declaration function that describe collision between ball and paddle
+
 int score = 0;
+int power = 0;
+
+
 
 Explosiveblock exblock(500, 500, 100, 60);
 Movingblock moveblock(500, 325, 100,60);
 
+bool collision(Powerups &powerup, Paddle &paddle)
+{
+    if (!exist_Collision(powerup, paddle)) {
+        return false;
+    }
+    power++;
+    if(power ==1)
+    {}
+
+    paddle.power_size();
+    powerup.not_activated();
+    return true;
+
+}
+Powerups powerup( 5000000, 5000000);
 bool collision(Block &block, Ball &ball) {
 
     if (!exist_Collision(block, ball)) {
         return false;
     }
+
     if (!block.destroyed) {
         if (exist_Collision(exblock, ball)) {
             exblock.destroy();
@@ -52,6 +81,7 @@ bool collision(Block &block, Ball &ball) {
 
         block.destroy();
         score++;
+
         float overlap_Left{ball.right() - block.left()};
         float overlap_Right{block.right() - ball.left()};
         float overlap_Top{ball.bottom() - block.top()};
@@ -69,12 +99,40 @@ bool collision(Block &block, Ball &ball) {
             ball_from_top ? ball.move_up_ball() : ball.move_down_ball();
         }
 
+
         return true;
     }
 
 }   //declaration function that describe collision between ball and blocks
+bool collision(Movingblock & moveblock, Ball &ball) {
+    if (!exist_Collision(moveblock, ball)) {
+
+        return false;
+    }
+
+            moveblock.powers();
 
 
+        float overlap_Left{ball.right() - moveblock.left()};
+        float overlap_Right{moveblock.right() - ball.left()};
+        float overlap_Top{ball.bottom() - moveblock.top()};
+        float overlap_Bottom{moveblock.bottom() - ball.top()};
+
+        bool ball_from_left(abs(overlap_Left) < abs(overlap_Right));
+        bool ball_from_top(abs(overlap_Top) < abs(overlap_Bottom));
+
+        float min_overlap_x{ball_from_left ? overlap_Left : overlap_Right};
+        float min_overlap_y{ball_from_top ? overlap_Top : overlap_Bottom};
+
+        if (abs(min_overlap_x) < abs(min_overlap_y)) {
+            ball_from_left ? ball.move_left_ball() : ball.move_right_ball();
+        } else {
+            ball_from_top ? ball.move_up_ball() : ball.move_down_ball();
+        }
+
+        return true;
+
+}
 
 int main() {
 
@@ -108,7 +166,7 @@ int main() {
     unsigned blocks_x{15}, blocks_y{4}, block_width{100}, block_height{60};
     vector<Block> blocks;
     exblock.draw_number();
-
+    powerup.remove();
     for (int i = 0; i < blocks_y; i++) {
         for (int j = 0; j < blocks_x; j++) {
             if (i == exblock.draw_number_y && j == exblock.draw_number_x) {
@@ -121,7 +179,7 @@ int main() {
             }
         }
     } //block making loop
-    ICollidable* ballPtr = &ball;
+
     while (true) //main loop
     {
         if (menu_options == 1) {
@@ -177,13 +235,20 @@ int main() {
                             return 0;
                         }
 
+                        ball.settings();
+                        powerup.settings_p();
+                        powerup.update();
                         ball.update();
                         paddle.update();
                         moveblock.update();
-                        //collision(paddle, ball);
+                        collision(paddle, ball);
+                        collision(moveblock, ball);
+                        collision(powerup, paddle);
+
                         for (auto &block: blocks) {
 
                             if (collision(block, ball)) {
+
                                 break;
                             }
 
@@ -192,7 +257,6 @@ int main() {
                         auto iterator = remove_if(begin(blocks), end(blocks),
                                                   [](Block &block) { return block.is_destroyed(); });
                         blocks.erase(iterator, end(blocks));
-
 
                         if (exblock.destroyed == true) {
                             for (auto &block: blocks) {
@@ -219,10 +283,29 @@ int main() {
                             }
                         } //loop destroying blocks all around explosive block
 
+                        if(moveblock.activated==true)
+                        {
+                            if(powerup.active == false)
+                            {
+                                powerup.set_position(moveblock.position().x,((moveblock.position().y)+30));
+                                powerup.activated();
+                                moveblock.delete_powers();
+                                powerup.restore();
 
-
+                            }
+                        }
+                        if(powerup.active == true)
+                        {
+                            window.draw(powerup.get_shape());
+                            power = 0;
+                        }
+                        if(powerup.getPosition().y > paddle.top())
+                        {
+                            powerup.not_activated();
+                        }
 
                         if (ball.getPosition().y > paddle.top()) {
+                            powerup.not_activated();
                             paddle.stop_paddle();
                             ball.under_paddle();
                             moveblock.stop();
@@ -259,6 +342,7 @@ int main() {
                                         menu.all_on_white();
                                         ball.reset_ball();
                                         moveblock.move();
+                                        paddle.reset_paddle();
                                         for (auto &block: blocks) {
                                             if (!block.destroyed) {
                                                 block.destroy();
@@ -360,15 +444,14 @@ int main() {
                         score_text.setFillColor(Color::White);
                         score_text.setPosition(10.f, 10.f);
                         window.draw(score_text);
-
-
                         ball.update();
+                        powerup.update();
                         paddle.update();
                         moveblock.update();
                         window.draw(ball.get_shape());
                         window.draw(paddle.get_shape());
                         window.draw(moveblock.get_shape());
-
+                        powerup.update();
 
                         for (auto &block: blocks) {
                             window.draw(block.get_shape());

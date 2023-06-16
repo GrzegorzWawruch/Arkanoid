@@ -1,5 +1,5 @@
 CMakeFiles/projekt.dir/main.cpp.obj: \
- C:\Users\wawru\CLionProjects\Arkanoid\main.cpp \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\main.cpp \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -258,11 +258,38 @@ CMakeFiles/projekt.dir/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Ball.h \
- C:\Users\wawru\CLionProjects\Arkanoid\ICollidable.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Paddle.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Block.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Menu.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Explosiveblock.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Ball.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Paddle.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Menu.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Block.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Explosiveblock.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/iostream \
- C:\Users\wawru\CLionProjects\Arkanoid\Movingblock.h
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/random \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/cmath \
+ C:/mingw64/x86_64-w64-mingw32/include/math.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/specfun.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/gamma.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/special_function_util.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/bessel_function.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/special_function_util.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/beta_function.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/ell_integral.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/exp_integral.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/hypergeometric.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/legendre_function.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/modified_bessel_func.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/poly_hermite.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/poly_laguerre.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/tr1/riemann_zeta.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/random.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/pmmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/emmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/xmmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/mmintrin.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/mm_malloc.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/random.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/numeric \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_numeric.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Movingblock.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Powerups.h

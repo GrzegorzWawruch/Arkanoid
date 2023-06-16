@@ -11,13 +11,73 @@
 class Movingblock : public Block{
 public:
     Movingblock(float pos_X, float pos_Y, float width, float height);
+
+
+    /**
+     * Updates the position of the moving block.
+     */
     void update();
+
+
+    /**
+     * Stops the moving block from moving.
+     */
     void stop();
+
+
+    /**
+     * Moves the moving block horizontally.
+     */
     void move();
+
+
+    /**
+     * Stops the game when the moving block is stopped.
+     */
     void movingblock_stop_game();
+
+
+    /**
+     * Restores the velocity of the moving block.
+     */
     void restore_velocity();
-    Vector2f get_position();
+
+
+    /**
+     * Returns the position of the moving block.
+     *
+     * @return The position of the moving block.
+     */
+    sf::Vector2f get_position();
+
+
+    /**
+     * Deletes powers associated with the moving block.
+     */
+    void delete_powers();
+
+
+    /**
+     * Handles the powers of the moving block.
+     */
+    void powers();
+
+
+        /**
+         * Variable indicating if the moving block is stopped.
+         */
     bool stopped = false;
+
+
+        /**
+         * Variable indicating if the moving block is activated.
+         */
+    float activated = false;
+
+
+        /**
+         * Helper variable for the moving block's velocity.
+         */
     float movingblock_velocity_helper_x;
 
 private:

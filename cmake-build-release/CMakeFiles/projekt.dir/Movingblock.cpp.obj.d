@@ -1,7 +1,7 @@
 CMakeFiles/projekt.dir/Movingblock.cpp.obj: \
- C:\Users\wawru\CLionProjects\Arkanoid\Movingblock.cpp \
- C:\Users\wawru\CLionProjects\Arkanoid\Movingblock.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Block.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Movingblock.cpp \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Movingblock.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Block.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \

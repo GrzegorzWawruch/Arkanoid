@@ -4,6 +4,7 @@
 
 #include "Paddle.h"
 
+
 Paddle::Paddle(float pos_X, float pos_Y) {
     shape.setPosition(pos_X, pos_Y);
     shape.setSize(Vector2f(this->paddle_width, this->paddle_height));
@@ -61,8 +62,18 @@ Vector2f Paddle::get_position() {
 void Paddle::reset_paddle() {
     paddle_velocity = 7.0f;
     shape.setPosition(825, 950);
+    paddle_width = paddle_helper_width;
+    shape.setSize(sf::Vector2f(this->paddle_width, this->paddle_height));
+    shape.setOrigin(this->paddle_width / 2.f, this->paddle_height / 2.f);
 }
 
 void Paddle::restore_velocity() {
     paddle_velocity = 7.0f;
+}
+void Paddle::power_size() {
+
+        paddle_width = paddle_width + 20.0f;
+        shape.setSize(sf::Vector2f(this->paddle_width, this->paddle_height));
+        shape.setOrigin(this->paddle_width / 2.f, this->paddle_height / 2.f);
+
 }

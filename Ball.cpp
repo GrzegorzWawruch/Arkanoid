@@ -7,20 +7,19 @@
 
 Ball::Ball(float pos_X, float pos_Y) {
     shape.setPosition(pos_X, pos_Y);
+/*    shape.setRadius(this->ball_radius);
+    shape.setFillColor(Color::Red);
+    //ustawienie położenie punktu odniesienia, czyli wskazanie na środek piłki
+    shape.setOrigin(this->ball_radius, this->ball_radius);*/
+}
+void Ball::settings() {
     shape.setRadius(this->ball_radius);
     shape.setFillColor(Color::Red);
     //ustawienie położenie punktu odniesienia, czyli wskazanie na środek piłki
     shape.setOrigin(this->ball_radius, this->ball_radius);
 }
 
-/*void Ball::collide(ICollidable *Other)
-{
-    if(Block* block = dynamic_cast<Block*>(Other)){
-
-    }
-}*/
-
-const CircleShape &Ball::get_shape() const {
+const sf::CircleShape &Ball::get_shape() const {
     return shape;
 }
 

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/wawru/CLionProjects/Arkanoid/cmake-build-release"
+			"value" : "c:/Users/wawru/CLionProjects/Arkanoid new collide system/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/wawru/CLionProjects/Arkanoid/cmake-build-release/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/wawru/CLionProjects/Arkanoid new collide system/cmake-build-release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -715,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/wawru/CLionProjects/Arkanoid"
+			"value" : "C:/Users/wawru/CLionProjects/Arkanoid new collide system"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1675,7 +1675,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/wawru/CLionProjects/Arkanoid/cmake-build-release"
+			"value" : "C:/Users/wawru/CLionProjects/Arkanoid new collide system/cmake-build-release"
 		},
 		{
 			"name" : "projekt_IS_TOP_LEVEL",
@@ -1699,7 +1699,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/wawru/CLionProjects/Arkanoid"
+			"value" : "C:/Users/wawru/CLionProjects/Arkanoid new collide system"
 		}
 	],
 	"kind" : "cache",

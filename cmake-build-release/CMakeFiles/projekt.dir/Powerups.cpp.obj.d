@@ -1,6 +1,6 @@
-CMakeFiles/projekt.dir/Menu.cpp.obj: \
- C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Menu.cpp \
- C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Menu.h \
+CMakeFiles/projekt.dir/Powerups.cpp.obj: \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Powerups.cpp \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Powerups.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -242,4 +242,21 @@ CMakeFiles/projekt.dir/Menu.cpp.obj: \
  C:/SFML/include/SFML/Graphics/Glsl.inl \
  C:/SFML/include/SFML/Graphics/Sprite.hpp \
  C:/SFML/include/SFML/Graphics/Text.hpp \
- C:/SFML/include/SFML/Graphics/VertexBuffer.hpp
+ C:/SFML/include/SFML/Graphics/VertexBuffer.hpp \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Ball.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/chrono \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ratio \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/parse_numbers.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/thread \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/memory \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/stl_raw_storage_iter.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/ext/concurrence.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/unique_ptr.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_base.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/allocated_ptr.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/refwrap.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h

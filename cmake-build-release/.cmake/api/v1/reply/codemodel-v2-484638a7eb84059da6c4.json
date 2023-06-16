@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "projekt::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-projekt-Release-e416dc60fe4f425a3664.json",
+					"jsonFile" : "target-projekt-Release-0ba5c62e2fcb39457bd0.json",
 					"name" : "projekt",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/wawru/CLionProjects/Arkanoid/cmake-build-release",
-		"source" : "C:/Users/wawru/CLionProjects/Arkanoid"
+		"build" : "C:/Users/wawru/CLionProjects/Arkanoid new collide system/cmake-build-release",
+		"source" : "C:/Users/wawru/CLionProjects/Arkanoid new collide system"
 	},
 	"version" : 
 	{

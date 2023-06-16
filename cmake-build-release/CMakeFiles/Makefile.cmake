@@ -7,12 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Users/wawru/CLionProjects/Arkanoid/CMakeLists.txt"
+  "C:/Users/wawru/CLionProjects/Arkanoid new collide system/CMakeLists.txt"
   "CMakeFiles/3.25.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.25.2/CMakeSystem.cmake"
-  "C:/Users/wawru/CLionProjects/Arkanoid/cmake_modules/FindSFML.cmake"
+  "C:/Users/wawru/CLionProjects/Arkanoid new collide system/cmake_modules/FindSFML.cmake"
   "E:/Programy/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake"
   "E:/Programy/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
   "E:/Programy/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"

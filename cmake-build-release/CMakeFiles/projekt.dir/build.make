@@ -52,10 +52,10 @@ RM = "E:\Programy\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wawru\CLionProjects\Arkanoid
+CMAKE_SOURCE_DIR = "C:\Users\wawru\CLionProjects\Arkanoid new collide system"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release
+CMAKE_BINARY_DIR = "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/projekt.dir/depend.make
@@ -70,123 +70,123 @@ include CMakeFiles/projekt.dir/flags.make
 
 CMakeFiles/projekt.dir/main.cpp.obj: CMakeFiles/projekt.dir/flags.make
 CMakeFiles/projekt.dir/main.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/main.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/main.cpp
+CMakeFiles/projekt.dir/main.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/main.cpp
 CMakeFiles/projekt.dir/main.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projekt.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/main.cpp.obj -MF CMakeFiles\projekt.dir\main.cpp.obj.d -o CMakeFiles\projekt.dir\main.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/projekt.dir/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/main.cpp.obj -MF CMakeFiles\projekt.dir\main.cpp.obj.d -o CMakeFiles\projekt.dir\main.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\main.cpp"
 
 CMakeFiles/projekt.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\main.cpp > CMakeFiles\projekt.dir\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\main.cpp" > CMakeFiles\projekt.dir\main.cpp.i
 
 CMakeFiles/projekt.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\main.cpp -o CMakeFiles\projekt.dir\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\main.cpp" -o CMakeFiles\projekt.dir\main.cpp.s
 
 CMakeFiles/projekt.dir/Ball.cpp.obj: CMakeFiles/projekt.dir/flags.make
 CMakeFiles/projekt.dir/Ball.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/Ball.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Ball.cpp
+CMakeFiles/projekt.dir/Ball.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/Ball.cpp
 CMakeFiles/projekt.dir/Ball.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projekt.dir/Ball.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Ball.cpp.obj -MF CMakeFiles\projekt.dir\Ball.cpp.obj.d -o CMakeFiles\projekt.dir\Ball.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/projekt.dir/Ball.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Ball.cpp.obj -MF CMakeFiles\projekt.dir\Ball.cpp.obj.d -o CMakeFiles\projekt.dir\Ball.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Ball.cpp"
 
 CMakeFiles/projekt.dir/Ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Ball.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\Ball.cpp > CMakeFiles\projekt.dir\Ball.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Ball.cpp" > CMakeFiles\projekt.dir\Ball.cpp.i
 
 CMakeFiles/projekt.dir/Ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Ball.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Ball.cpp -o CMakeFiles\projekt.dir\Ball.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Ball.cpp" -o CMakeFiles\projekt.dir\Ball.cpp.s
 
 CMakeFiles/projekt.dir/Paddle.cpp.obj: CMakeFiles/projekt.dir/flags.make
 CMakeFiles/projekt.dir/Paddle.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/Paddle.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Paddle.cpp
+CMakeFiles/projekt.dir/Paddle.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/Paddle.cpp
 CMakeFiles/projekt.dir/Paddle.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projekt.dir/Paddle.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Paddle.cpp.obj -MF CMakeFiles\projekt.dir\Paddle.cpp.obj.d -o CMakeFiles\projekt.dir\Paddle.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Paddle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/projekt.dir/Paddle.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Paddle.cpp.obj -MF CMakeFiles\projekt.dir\Paddle.cpp.obj.d -o CMakeFiles\projekt.dir\Paddle.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Paddle.cpp"
 
 CMakeFiles/projekt.dir/Paddle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Paddle.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\Paddle.cpp > CMakeFiles\projekt.dir\Paddle.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Paddle.cpp" > CMakeFiles\projekt.dir\Paddle.cpp.i
 
 CMakeFiles/projekt.dir/Paddle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Paddle.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Paddle.cpp -o CMakeFiles\projekt.dir\Paddle.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Paddle.cpp" -o CMakeFiles\projekt.dir\Paddle.cpp.s
 
 CMakeFiles/projekt.dir/Block.cpp.obj: CMakeFiles/projekt.dir/flags.make
 CMakeFiles/projekt.dir/Block.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/Block.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Block.cpp
+CMakeFiles/projekt.dir/Block.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/Block.cpp
 CMakeFiles/projekt.dir/Block.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projekt.dir/Block.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Block.cpp.obj -MF CMakeFiles\projekt.dir\Block.cpp.obj.d -o CMakeFiles\projekt.dir\Block.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/projekt.dir/Block.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Block.cpp.obj -MF CMakeFiles\projekt.dir\Block.cpp.obj.d -o CMakeFiles\projekt.dir\Block.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Block.cpp"
 
 CMakeFiles/projekt.dir/Block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Block.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\Block.cpp > CMakeFiles\projekt.dir\Block.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Block.cpp" > CMakeFiles\projekt.dir\Block.cpp.i
 
 CMakeFiles/projekt.dir/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Block.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Block.cpp -o CMakeFiles\projekt.dir\Block.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Block.cpp" -o CMakeFiles\projekt.dir\Block.cpp.s
 
 CMakeFiles/projekt.dir/Menu.cpp.obj: CMakeFiles/projekt.dir/flags.make
 CMakeFiles/projekt.dir/Menu.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/Menu.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Menu.cpp
+CMakeFiles/projekt.dir/Menu.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/Menu.cpp
 CMakeFiles/projekt.dir/Menu.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projekt.dir/Menu.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Menu.cpp.obj -MF CMakeFiles\projekt.dir\Menu.cpp.obj.d -o CMakeFiles\projekt.dir\Menu.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/projekt.dir/Menu.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Menu.cpp.obj -MF CMakeFiles\projekt.dir\Menu.cpp.obj.d -o CMakeFiles\projekt.dir\Menu.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Menu.cpp"
 
 CMakeFiles/projekt.dir/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Menu.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\Menu.cpp > CMakeFiles\projekt.dir\Menu.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Menu.cpp" > CMakeFiles\projekt.dir\Menu.cpp.i
 
 CMakeFiles/projekt.dir/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Menu.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Menu.cpp -o CMakeFiles\projekt.dir\Menu.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Menu.cpp" -o CMakeFiles\projekt.dir\Menu.cpp.s
 
-CMakeFiles/projekt.dir/Explosiveblock.cpp.obj: CMakeFiles/projekt.dir/flags.make
-CMakeFiles/projekt.dir/Explosiveblock.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/Explosiveblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Explosiveblock.cpp
-CMakeFiles/projekt.dir/Explosiveblock.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projekt.dir/Explosiveblock.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Explosiveblock.cpp.obj -MF CMakeFiles\projekt.dir\Explosiveblock.cpp.obj.d -o CMakeFiles\projekt.dir\Explosiveblock.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Explosiveblock.cpp
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: CMakeFiles/projekt.dir/flags.make
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/explosiveblock.cpp
+CMakeFiles/projekt.dir/explosiveblock.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/projekt.dir/explosiveblock.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/explosiveblock.cpp.obj -MF CMakeFiles\projekt.dir\explosiveblock.cpp.obj.d -o CMakeFiles\projekt.dir\explosiveblock.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\explosiveblock.cpp"
 
-CMakeFiles/projekt.dir/Explosiveblock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Explosiveblock.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\Explosiveblock.cpp > CMakeFiles\projekt.dir\Explosiveblock.cpp.i
+CMakeFiles/projekt.dir/explosiveblock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/explosiveblock.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\explosiveblock.cpp" > CMakeFiles\projekt.dir\explosiveblock.cpp.i
 
-CMakeFiles/projekt.dir/Explosiveblock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Explosiveblock.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Explosiveblock.cpp -o CMakeFiles\projekt.dir\Explosiveblock.cpp.s
+CMakeFiles/projekt.dir/explosiveblock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/explosiveblock.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\explosiveblock.cpp" -o CMakeFiles\projekt.dir\explosiveblock.cpp.s
 
 CMakeFiles/projekt.dir/Movingblock.cpp.obj: CMakeFiles/projekt.dir/flags.make
 CMakeFiles/projekt.dir/Movingblock.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/Movingblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/Movingblock.cpp
+CMakeFiles/projekt.dir/Movingblock.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/Movingblock.cpp
 CMakeFiles/projekt.dir/Movingblock.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projekt.dir/Movingblock.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Movingblock.cpp.obj -MF CMakeFiles\projekt.dir\Movingblock.cpp.obj.d -o CMakeFiles\projekt.dir\Movingblock.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\Movingblock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/projekt.dir/Movingblock.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Movingblock.cpp.obj -MF CMakeFiles\projekt.dir\Movingblock.cpp.obj.d -o CMakeFiles\projekt.dir\Movingblock.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Movingblock.cpp"
 
 CMakeFiles/projekt.dir/Movingblock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Movingblock.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\Movingblock.cpp > CMakeFiles\projekt.dir\Movingblock.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Movingblock.cpp" > CMakeFiles\projekt.dir\Movingblock.cpp.i
 
 CMakeFiles/projekt.dir/Movingblock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Movingblock.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\Movingblock.cpp -o CMakeFiles\projekt.dir\Movingblock.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Movingblock.cpp" -o CMakeFiles\projekt.dir\Movingblock.cpp.s
 
-CMakeFiles/projekt.dir/ICollidable.cpp.obj: CMakeFiles/projekt.dir/flags.make
-CMakeFiles/projekt.dir/ICollidable.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
-CMakeFiles/projekt.dir/ICollidable.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid/ICollidable.cpp
-CMakeFiles/projekt.dir/ICollidable.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projekt.dir/ICollidable.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/ICollidable.cpp.obj -MF CMakeFiles\projekt.dir\ICollidable.cpp.obj.d -o CMakeFiles\projekt.dir\ICollidable.cpp.obj -c C:\Users\wawru\CLionProjects\Arkanoid\ICollidable.cpp
+CMakeFiles/projekt.dir/Powerups.cpp.obj: CMakeFiles/projekt.dir/flags.make
+CMakeFiles/projekt.dir/Powerups.cpp.obj: CMakeFiles/projekt.dir/includes_CXX.rsp
+CMakeFiles/projekt.dir/Powerups.cpp.obj: C:/Users/wawru/CLionProjects/Arkanoid\ new\ collide\ system/Powerups.cpp
+CMakeFiles/projekt.dir/Powerups.cpp.obj: CMakeFiles/projekt.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/projekt.dir/Powerups.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/projekt.dir/Powerups.cpp.obj -MF CMakeFiles\projekt.dir\Powerups.cpp.obj.d -o CMakeFiles\projekt.dir\Powerups.cpp.obj -c "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Powerups.cpp"
 
-CMakeFiles/projekt.dir/ICollidable.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/ICollidable.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wawru\CLionProjects\Arkanoid\ICollidable.cpp > CMakeFiles\projekt.dir\ICollidable.cpp.i
+CMakeFiles/projekt.dir/Powerups.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/projekt.dir/Powerups.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Powerups.cpp" > CMakeFiles\projekt.dir\Powerups.cpp.i
 
-CMakeFiles/projekt.dir/ICollidable.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/ICollidable.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\wawru\CLionProjects\Arkanoid\ICollidable.cpp -o CMakeFiles\projekt.dir\ICollidable.cpp.s
+CMakeFiles/projekt.dir/Powerups.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/projekt.dir/Powerups.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\wawru\CLionProjects\Arkanoid new collide system\Powerups.cpp" -o CMakeFiles\projekt.dir\Powerups.cpp.s
 
 # Object files for target projekt
 projekt_OBJECTS = \
@@ -195,9 +195,9 @@ projekt_OBJECTS = \
 "CMakeFiles/projekt.dir/Paddle.cpp.obj" \
 "CMakeFiles/projekt.dir/Block.cpp.obj" \
 "CMakeFiles/projekt.dir/Menu.cpp.obj" \
-"CMakeFiles/projekt.dir/Explosiveblock.cpp.obj" \
+"CMakeFiles/projekt.dir/explosiveblock.cpp.obj" \
 "CMakeFiles/projekt.dir/Movingblock.cpp.obj" \
-"CMakeFiles/projekt.dir/ICollidable.cpp.obj"
+"CMakeFiles/projekt.dir/Powerups.cpp.obj"
 
 # External object files for target projekt
 projekt_EXTERNAL_OBJECTS =
@@ -207,9 +207,9 @@ projekt.exe: CMakeFiles/projekt.dir/Ball.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Paddle.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Block.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Menu.cpp.obj
-projekt.exe: CMakeFiles/projekt.dir/Explosiveblock.cpp.obj
+projekt.exe: CMakeFiles/projekt.dir/explosiveblock.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/Movingblock.cpp.obj
-projekt.exe: CMakeFiles/projekt.dir/ICollidable.cpp.obj
+projekt.exe: CMakeFiles/projekt.dir/Powerups.cpp.obj
 projekt.exe: CMakeFiles/projekt.dir/build.make
 projekt.exe: C:/SFML/lib/libsfml-system.a
 projekt.exe: C:/SFML/lib/libsfml-window.a
@@ -219,7 +219,7 @@ projekt.exe: C:/SFML/lib/libsfml-audio.a
 projekt.exe: CMakeFiles/projekt.dir/linkLibs.rsp
 projekt.exe: CMakeFiles/projekt.dir/objects1
 projekt.exe: CMakeFiles/projekt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable projekt.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable projekt.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\projekt.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -231,6 +231,6 @@ CMakeFiles/projekt.dir/clean:
 .PHONY : CMakeFiles/projekt.dir/clean
 
 CMakeFiles/projekt.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\wawru\CLionProjects\Arkanoid C:\Users\wawru\CLionProjects\Arkanoid C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles\projekt.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\wawru\CLionProjects\Arkanoid new collide system" "C:\Users\wawru\CLionProjects\Arkanoid new collide system" "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release" "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release" "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles\projekt.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/projekt.dir/depend
 

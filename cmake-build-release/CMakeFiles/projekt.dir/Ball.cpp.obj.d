@@ -1,6 +1,6 @@
 CMakeFiles/projekt.dir/Ball.cpp.obj: \
- C:\Users\wawru\CLionProjects\Arkanoid\Ball.cpp \
- C:\Users\wawru\CLionProjects\Arkanoid\Ball.h \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Ball.cpp \
+ C:\Users\wawru\CLionProjects\Arkanoid\ new\ collide\ system\Ball.h \
  C:/SFML/include/SFML/Graphics.hpp C:/SFML/include/SFML/Window.hpp \
  C:/SFML/include/SFML/System.hpp C:/SFML/include/SFML/Config.hpp \
  C:/SFML/include/SFML/System/Clock.hpp \
@@ -258,7 +258,4 @@ CMakeFiles/projekt.dir/Ball.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/shared_ptr_atomic.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_base.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/bits/atomic_lockfree_defines.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h \
- C:\Users\wawru\CLionProjects\Arkanoid\ICollidable.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Paddle.h \
- C:\Users\wawru\CLionProjects\Arkanoid\Block.h
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward/auto_ptr.h

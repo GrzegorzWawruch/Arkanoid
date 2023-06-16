@@ -4,8 +4,6 @@
 
 #include "Movingblock.h"
 
-using namespace std;
-
 Movingblock::Movingblock(float pos_X, float pos_Y, float width, float height) : Block(pos_X, pos_Y, width, height)
 {
     shape.setPosition(pos_X, pos_Y);
@@ -51,3 +49,10 @@ void Movingblock::movingblock_stop_game() {
 
         }
     }
+
+void Movingblock::powers() {
+    this->activated = true;
+}
+void Movingblock::delete_powers() {
+    this->activated = false;
+}

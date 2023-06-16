@@ -56,10 +56,10 @@ RM = "E:\Programy\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wawru\CLionProjects\Arkanoid
+CMAKE_SOURCE_DIR = "C:\Users\wawru\CLionProjects\Arkanoid new collide system"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release
+CMAKE_BINARY_DIR = "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wawru\CLionProjects\Arkanoid\cmake-build-release\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\wawru\CLionProjects\Arkanoid new collide system\cmake-build-release\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -176,54 +176,6 @@ Block.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Block.cpp.s
 .PHONY : Block.cpp.s
 
-Explosiveblock.obj: Explosiveblock.cpp.obj
-.PHONY : Explosiveblock.obj
-
-# target to build an object file
-Explosiveblock.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Explosiveblock.cpp.obj
-.PHONY : Explosiveblock.cpp.obj
-
-Explosiveblock.i: Explosiveblock.cpp.i
-.PHONY : Explosiveblock.i
-
-# target to preprocess a source file
-Explosiveblock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Explosiveblock.cpp.i
-.PHONY : Explosiveblock.cpp.i
-
-Explosiveblock.s: Explosiveblock.cpp.s
-.PHONY : Explosiveblock.s
-
-# target to generate assembly for a file
-Explosiveblock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Explosiveblock.cpp.s
-.PHONY : Explosiveblock.cpp.s
-
-ICollidable.obj: ICollidable.cpp.obj
-.PHONY : ICollidable.obj
-
-# target to build an object file
-ICollidable.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/ICollidable.cpp.obj
-.PHONY : ICollidable.cpp.obj
-
-ICollidable.i: ICollidable.cpp.i
-.PHONY : ICollidable.i
-
-# target to preprocess a source file
-ICollidable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/ICollidable.cpp.i
-.PHONY : ICollidable.cpp.i
-
-ICollidable.s: ICollidable.cpp.s
-.PHONY : ICollidable.s
-
-# target to generate assembly for a file
-ICollidable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/ICollidable.cpp.s
-.PHONY : ICollidable.cpp.s
-
 Menu.obj: Menu.cpp.obj
 .PHONY : Menu.obj
 
@@ -296,6 +248,54 @@ Paddle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Paddle.cpp.s
 .PHONY : Paddle.cpp.s
 
+Powerups.obj: Powerups.cpp.obj
+.PHONY : Powerups.obj
+
+# target to build an object file
+Powerups.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Powerups.cpp.obj
+.PHONY : Powerups.cpp.obj
+
+Powerups.i: Powerups.cpp.i
+.PHONY : Powerups.i
+
+# target to preprocess a source file
+Powerups.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Powerups.cpp.i
+.PHONY : Powerups.cpp.i
+
+Powerups.s: Powerups.cpp.s
+.PHONY : Powerups.s
+
+# target to generate assembly for a file
+Powerups.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/Powerups.cpp.s
+.PHONY : Powerups.cpp.s
+
+explosiveblock.obj: explosiveblock.cpp.obj
+.PHONY : explosiveblock.obj
+
+# target to build an object file
+explosiveblock.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/explosiveblock.cpp.obj
+.PHONY : explosiveblock.cpp.obj
+
+explosiveblock.i: explosiveblock.cpp.i
+.PHONY : explosiveblock.i
+
+# target to preprocess a source file
+explosiveblock.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/explosiveblock.cpp.i
+.PHONY : explosiveblock.cpp.i
+
+explosiveblock.s: explosiveblock.cpp.s
+.PHONY : explosiveblock.s
+
+# target to generate assembly for a file
+explosiveblock.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projekt.dir\build.make CMakeFiles/projekt.dir/explosiveblock.cpp.s
+.PHONY : explosiveblock.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -335,12 +335,6 @@ help:
 	@echo ... Block.obj
 	@echo ... Block.i
 	@echo ... Block.s
-	@echo ... Explosiveblock.obj
-	@echo ... Explosiveblock.i
-	@echo ... Explosiveblock.s
-	@echo ... ICollidable.obj
-	@echo ... ICollidable.i
-	@echo ... ICollidable.s
 	@echo ... Menu.obj
 	@echo ... Menu.i
 	@echo ... Menu.s
@@ -350,6 +344,12 @@ help:
 	@echo ... Paddle.obj
 	@echo ... Paddle.i
 	@echo ... Paddle.s
+	@echo ... Powerups.obj
+	@echo ... Powerups.i
+	@echo ... Powerups.s
+	@echo ... explosiveblock.obj
+	@echo ... explosiveblock.i
+	@echo ... explosiveblock.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
