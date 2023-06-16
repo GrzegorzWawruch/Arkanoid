@@ -77,9 +77,11 @@ bool collision(Powerups &powerup, Paddle &paddle)
     }
     power++;
     if(power ==1)
-    {}
+    {
+        paddle.power_size();
+    }
 
-    paddle.power_size();
+
     powerup.not_activated();
     return true;
 

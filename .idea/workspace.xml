@@ -171,7 +171,7 @@
       <workItem from="1686861571055" duration="11718000" />
       <workItem from="1686873781513" duration="1395000" />
       <workItem from="1686895791253" duration="19376000" />
-      <workItem from="1686917395590" duration="1000" />
+      <workItem from="1686917395590" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="piewszy commit">
       <created>1683474850117</created>
@@ -404,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686917062829</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="final version">
+      <created>1686917836149</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686917836149</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,8 +461,8 @@
     <MESSAGE value="new movingblock" />
     <MESSAGE value="new block on map" />
     <MESSAGE value="Final version" />
-    <MESSAGE value="final version" />
     <MESSAGE value="Changes by adm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by adm" />
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
   </component>
 </project>
