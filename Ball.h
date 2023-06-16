@@ -1,3 +1,15 @@
+/**
+ *
+ * Created by adm on 19.05.2023.
+ *
+ * Declaration of methods implemented in "Ball.cpp".
+ *
+ * This class represents a ball in a game. It has properties such as position, velocity, and shape.
+ * The ball can be moved, updated, and its state can be modified during gameplay.
+ * Contains methods for setting up the ball, retrieving its shape, updating its position, and handling game events.
+ */
+
+
 #ifndef BALL_H
 #define BALL_H
 
@@ -6,8 +18,6 @@
 #include <chrono>
 #include <thread>
 
-
-using namespace sf;
 
 class Ball {
 
@@ -155,12 +165,43 @@ public:
 
 
 private:
-    CircleShape shape;  //object represent a ball shape
-    const float ball_radius{25.0f};  //variable that stores a ball radius
-    float ball_velocity{5.0f};       //variable that stores a ball rvelocity
-    Vector2f velocity{ball_velocity, ball_velocity};  //vector that stores information about ball velocity
-    void draw(RenderTarget &target, RenderStates state) const;  //function that draw a ball
 
+            /**
+             * Object representing the shape of the ball.
+            */
+    sf::CircleShape shape;
+
+
+            /**
+             * The radius of the ball.
+             * Determines the size of the ball's circle shape.
+             */
+    const float ball_radius{25.0f};
+
+
+    /**
+     * The velocity of the ball.
+     * Controls the speed at which the ball moves.
+     * Higher values result in faster movement.
+     */
+    float ball_velocity{5.0f};
+
+
+    /**
+     * The velocity vector of the ball.
+     * The x-component represents the horizontal velocity, and the y-component represents the vertical velocity.
+     * Positive values indicate movement to the right or downward, while negative values indicate movement to the left or upward.
+     */
+    sf::Vector2f velocity{ball_velocity, ball_velocity};
+
+
+    /**
+     * Draws the ball on the given render target.
+     *
+     * @param target The render target to draw the ball on.
+     * @param state The render states to use for drawing.
+     */
+    void draw(sf::RenderTarget &target, sf::RenderStates state) const;
 };
 
 #endif

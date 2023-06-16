@@ -1,3 +1,14 @@
+/**
+ * Created by adm on 19.05.2023.
+ *
+ * This is the main.cpp file for a game called "Arcanoid."
+ * The program includes several classes such as Ball, Paddle, Block,
+ * Explosiveblock, Movingblock, and Powerups, which define the behavior
+ * and properties of the game elements.
+ *
+ * @file main.cpp
+ */
+
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <chrono>
@@ -11,8 +22,17 @@
 #include "Powerups.h"
 
 using namespace std;
-using namespace sf;
 
+
+/**
+ * Determines whether a collision exists between two objects.
+ *
+ * @tparam C1 the type of the first object
+ * @tparam C2 the type of the second object
+ * @param A a reference to the first object
+ * @param B a reference to the second object
+ * @return true if a collision exists between the objects, false otherwise
+ */
 template<class C1, class C2>
 bool exist_Collision(C1 &A, C2 &B) {
     return A.right() >= B.left() && A.left() <= B.right()
@@ -39,8 +59,6 @@ bool collision(Paddle &paddle, Ball &ball) {
     } else if (ball.getPosition().x > paddle.get_position().x) {
         ball.move_right_ball();
     }
-
-
     return true;
 }//declaration function that describe collision between ball and paddle
 
@@ -138,30 +156,31 @@ int main() {
 
 
     int menu_options = 1;
-    /***************************************************************
-     *          menu_options           *          Function         *
-     * ____________________________________________________________*
-     *            -1                   *         close             *
-     *             0                   *         Game              *
-     *             1                   *         MainMenu          *
-     *             2                   *         instructions      *
-     *             3                   *                           *
-     ***************************************************************
-     */
+/**
+ * @brief Menu Options and Corresponding Functions
+ *\n ____________________________________
+ * \n|..menu_options.|..Function....|
+ * \n|--------------|---------------|
+ * \n|.......-1.....|.....close.....|
+ * \n|........0.....|.....Game......|
+ * \n|........1.....|...MainMenu....|
+ * \n|........2.....|..Instructions.|
+ * \n|........3.....|...............|
+ */
 
     Ball ball(500, 500);
     Paddle paddle(950, 950);
-    RenderWindow window(VideoMode(1650, 1050), "Arcanoid");
+    sf::RenderWindow window(sf::VideoMode(1650, 1050), "Arcanoid");
     Menu menu(1920, 1080);
-    Texture mainmenu_photo;
-    Texture instruction_photo;
+    sf::Texture mainmenu_photo;
+    sf::Texture instruction_photo;
     instruction_photo.loadFromFile("instrukcja.png");
     mainmenu_photo.loadFromFile("obraz.png");
-    Sprite photo;
-    Text endgame;
+    sf::Sprite photo;
+    sf::Text endgame;
     photo.setTexture(mainmenu_photo);
     window.setFramerateLimit(60);
-    Event event;
+    sf::Event event;
     std::chrono::milliseconds waiting_time(200);
     unsigned blocks_x{15}, blocks_y{4}, block_width{100}, block_height{60};
     vector<Block> blocks;
@@ -185,17 +204,17 @@ int main() {
         if (menu_options == 1) {
             while (window.isOpen()) {
                 while (window.pollEvent(event)) {
-                    if (event.type == Event::Closed) {
+                    if (event.type == sf::Event::Closed) {
                         window.close();
                         return 0;
                     }
 
-                    if (event.type == Event::KeyPressed) {
-                        if (event.key.code == Keyboard::Up) {
+                    if (event.type == sf::Event::KeyPressed) {
+                        if (event.key.code == sf::Keyboard::Up) {
                             menu.move_up();
-                        } else if (event.key.code == Keyboard::Down) {
+                        } else if (event.key.code == sf::Keyboard::Down) {
                             menu.move_down();
-                        } else if (event.key.code == Keyboard::Return) {
+                        } else if (event.key.code == sf::Keyboard::Return) {
                             if (menu.pressed() == 0) {
                                 menu_options = 0;
                             }
@@ -227,10 +246,10 @@ int main() {
                 while (menu_options == 0) {
                     while (window.isOpen()) {
 
-                        window.clear(Color::Black);
+                        window.clear(sf::Color::Black);
                         window.pollEvent(event);
 
-                        if (event.type == Event::Closed) {
+                        if (event.type == sf::Event::Closed) {
                             window.close();
                             return 0;
                         }
@@ -251,7 +270,6 @@ int main() {
 
                                 break;
                             }
-
                         }
 
                         auto iterator = remove_if(begin(blocks), end(blocks),
@@ -281,7 +299,7 @@ int main() {
                                     block.destroy();
                                 }
                             }
-                        } //loop destroying blocks all around explosive block
+                        }
 
                         if(moveblock.activated==true)
                         {
@@ -309,19 +327,19 @@ int main() {
                             paddle.stop_paddle();
                             ball.under_paddle();
                             moveblock.stop();
-                            Font font;
+                            sf::Font font;
                             if (!font.loadFromFile("Bambuchinnox.ttf")) {
                                 return -1;
                             }
-                            Text endgame("THE END", font, 100);
-                            endgame.setFillColor(Color::White);
+                            sf::Text endgame("THE END", font, 100);
+                            endgame.setFillColor(sf::Color::White);
                             endgame.setPosition(window.getSize().x / 2.f - endgame.getGlobalBounds().width / 2.f,
                                                 window.getSize().y / 2.f - endgame.getGlobalBounds().height / 2.f -
                                                 15.f);
                             window.draw(endgame);
-                            //wyświetlanie punktów;
-                            Text score_text("Total Score: " + to_string(score), font, 60);
-                            score_text.setFillColor(Color::White);
+
+                            sf::Text score_text("Total Score: " + to_string(score), font, 60);
+                            score_text.setFillColor(sf::Color::White);
                             score_text.setPosition(window.getSize().x / 2.f - score_text.getGlobalBounds().width / 2.f,
                                                    window.getSize().y / 2.f + endgame.getGlobalBounds().height / 2.f +
                                                    score_text.getGlobalBounds().height / 2.f);
@@ -329,14 +347,14 @@ int main() {
                             moveblock.stop();
                             paddle.stop_paddle();
                             menu.draw_end_menu(window);
-                            if (event.type == Event::KeyPressed) {
-                                if (event.key.code == Keyboard::Left) {
+                            if (event.type == sf::Event::KeyPressed) {
+                                if (event.key.code == sf::Keyboard::Left) {
                                     menu.move_left();
                                     std::this_thread::sleep_for(waiting_time);
-                                } else if (event.key.code == Keyboard::Right) {
+                                } else if (event.key.code == sf::Keyboard::Right) {
                                     menu.move_right();
                                     std::this_thread::sleep_for(waiting_time);
-                                } else if (event.key.code == Keyboard::Return) {
+                                } else if (event.key.code == sf::Keyboard::Return) {
                                     if (menu.pressed() == 0) //new game options
                                     {
                                         menu.all_on_white();
@@ -366,9 +384,8 @@ int main() {
                                         }
                                         score = 0;
                                         break;
-
                                     }
-                                    if (menu.pressed() == 1) //back to menu options
+                                    if (menu.pressed() == 1)
                                     {
                                         score = 0;
                                         menu_options = 1;
@@ -408,26 +425,25 @@ int main() {
                                 }
                             }
                             paddle.reset_paddle();
-
-                        }//decision describing what will happen if the ball falls under the paddle
+                        }
                         paddle.restore_velocity();
-                        if (Keyboard::isKeyPressed(Keyboard::P)) {
+                        if (sf::Keyboard::isKeyPressed(sf::Keyboard::P)) {
                             ball.stop_game();
                             moveblock.movingblock_stop_game();
                         }
-                        if (ball.is_stopped == true)// decision describing what will happen if we stop the gamep
+                        if (ball.is_stopped == true)
                         {
-                            if (ball.getPosition().y <= paddle.top()) // zapobiega wyświetlaniu pause po zakończeniu gry
+                            if (ball.getPosition().y <= paddle.top())
                             {
 
                                 paddle.stop_paddle();
-                                Font font;
+                                sf::Font font;
                                 moveblock.stopped = true;
                                 if (!font.loadFromFile("Bambuchinnox.ttf")) {
                                     return -1;
                                 }
-                                Text pause("PAUSE", font, 100);
-                                pause.setFillColor(Color::White);
+                                sf::Text pause("PAUSE", font, 100);
+                                pause.setFillColor(sf::Color::White);
                                 pause.setPosition(1650 / 2.f - pause.getGlobalBounds().width / 2.f,
                                                   1050 / 2.f - pause.getGlobalBounds().height / 2.f);
                                 window.draw(pause);
@@ -435,13 +451,12 @@ int main() {
                             }
                         }
 
-
-                        Font font;                                              //display score
+                        sf::Font font;
                         if (!font.loadFromFile("Bambuchinnox.ttf")) {
                             return -1;
                         }
-                        Text score_text("Score: " + to_string(score), font, 20);
-                        score_text.setFillColor(Color::White);
+                        sf::Text score_text("Score: " + to_string(score), font, 20);
+                        score_text.setFillColor(sf::Color::White);
                         score_text.setPosition(10.f, 10.f);
                         window.draw(score_text);
                         ball.update();
@@ -472,45 +487,39 @@ int main() {
                                     }
                                 }
                             }
-                        } // function describing what will happen if all blocks are destroyed
+                        }
                     }
                 }
 
             } else if (menu_options == 2) {
                 while (window.isOpen()) {
-                    window.clear(Color::Black);
+                    window.clear(sf::Color::Black);
                     window.pollEvent(event);
 
-                    if (event.type == Event::Closed) {
+                    if (event.type == sf::Event::Closed) {
                         return 0;
                     }
-
-                    // Rysowanie obrazka instrukcji
-                    Sprite instructionSprite(instruction_photo);
-
-                    // Ustawienie pozycji na środku okna
+                    sf::Sprite instructionSprite(instruction_photo);
                     float posX = (window.getSize().x - instructionSprite.getGlobalBounds().width) / 2.f;
                     float posY = (window.getSize().y - instructionSprite.getGlobalBounds().height) / 2.f;
                     instructionSprite.setPosition(posX, posY);
 
                     window.draw(instructionSprite);
 
-                    // Rysowanie przycisku "Back"
-                    RectangleShape backButton(Vector2f(100.f, 40.f));
-                    backButton.setFillColor(Color::Red);
+                    sf::RectangleShape backButton(sf::Vector2f(100.f, 40.f));
+                    backButton.setFillColor(sf::Color::Red);
                     backButton.setPosition(
                             posX / 5 + instructionSprite.getGlobalBounds().width - 7 * backButton.getSize().x,
                             posY + instructionSprite.getGlobalBounds().height - backButton.getSize().y - 200.f);
                     window.draw(backButton);
 
-                    // Tworzenie tekstu "Back"
-                    Font font;
-                    if (!font.loadFromFile("Bambuchinnox.ttf")) // Ścieżka do pliku czcionki
+                    sf::Font font;
+                    if (!font.loadFromFile("Bambuchinnox.ttf"))
                     {
                         return -1;
                     }
-                    Text backText("Back", font, 20); // Tekst "Back" z czcionką i rozmiarem 20
-                    backText.setFillColor(Color::White);
+                    sf::Text backText("Back", font, 20);
+                    backText.setFillColor(sf::Color::White);
                     backText.setPosition(backButton.getPosition().x + backButton.getSize().x / 2.f -
                                          backText.getGlobalBounds().width / 2.f,
                                          backButton.getPosition().y + backButton.getSize().y / 3.f -
@@ -519,23 +528,22 @@ int main() {
 
                     window.display();
 
-                    if (event.type == Event::KeyPressed && event.key.code == Keyboard::Escape) {
-                        menu_options = 1; // Przejście do menu głównego po naciśnięciu klawisza Escape
+                    if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape) {
+                        menu_options = 1;
                         break;
                     }
 
-                    if (event.type == Event::MouseButtonReleased && event.mouseButton.button == Mouse::Left) {
-                        // Sprawdzenie, czy kliknięcie myszką nastąpiło na przycisku "Back"
-                        Vector2f mousePosition = window.mapPixelToCoords(
-                                Vector2i(event.mouseButton.x, event.mouseButton.y));
+                    if (event.type == sf::Event::MouseButtonReleased && event.mouseButton.button == sf::Mouse::Left) {
+                        sf::Vector2f mousePosition = window.mapPixelToCoords(
+                                sf::Vector2i(event.mouseButton.x, event.mouseButton.y));
 
                         if (backButton.getGlobalBounds().contains(mousePosition)) {
-                            menu_options = 1; // Przejście do menu głównego po kliknięciu przycisku "Back"
+                            menu_options = 1;
                             break;
                         }
                     }
                 }
-            } //show instruction option
+            }
         }
     }
 }

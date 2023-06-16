@@ -1,23 +1,26 @@
-//
-// Created by adm on 19.05.2023.
-//
+/**
+ * Created by adm on 19.05.2023.
+ *
+ * @file Block.cpp
+ *
+ * Implementation of methods declared in "Block.h".
+ */
 
 #include "Block.h"
 
 Block::Block(float pos_X, float pos_Y, float width, float height) {
     shape.setPosition(pos_X, pos_Y);
-    shape.setSize(Vector2f(width, height));
-    shape.setFillColor(Color{184, 3, 255});
+    shape.setSize(sf::Vector2f(width, height));
+    shape.setFillColor(sf::Color{184, 3, 255});
     shape.setOrigin(width / 2.f, height / 2.f);
 }
 
-
-const RectangleShape &Block::get_shape() const {
+const sf::RectangleShape &Block::get_shape() const {
     return shape;
 }
 
 
-void Block::draw(RenderTarget &target, RenderStates state) const {
+void Block::draw(sf::RenderTarget &target, sf::RenderStates state) const {
     target.draw(this->shape, state);
 }
 
@@ -50,11 +53,11 @@ void Block::restore() {
     this->destroyed = false;
 }
 
-Vector2f Block::position() {
+sf::Vector2f Block::position() {
     return shape.getPosition();
 }
 
-Vector2f Block::size() {
+sf::Vector2f Block::size() {
     return shape.getSize();
 }
 

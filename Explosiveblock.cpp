@@ -1,16 +1,19 @@
-//
-// Created by wawru on 05.06.2023.
-//
+/**
+ * Created by wawru on 5.06.2023.
+ *
+ * @file Explosiveblock.cpp
+ *
+ * Implementation of methods declared in "Explosiveblock.h".
+ */
 
 #include "Explosiveblock.h"
 
-using namespace std;
 
 Explosiveblock::Explosiveblock(float pos_X, float pos_Y, float width, float height) : Block(pos_X, pos_Y, width,
                                                                                             height) {
     shape.setPosition(pos_X, pos_Y);
-    shape.setSize(Vector2f(width, height));
-    shape.setFillColor(Color{48, 213, 200});
+    shape.setSize(sf::Vector2f(width, height));
+    shape.setFillColor(sf::Color{48, 213, 200});
     shape.setOrigin(width / 2.f, height / 2.f);
     srand(static_cast<unsigned>(time(nullptr)));
 

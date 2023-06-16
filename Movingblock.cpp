@@ -1,14 +1,18 @@
-//
-// Created by wawru on 13.06.2023.
-//
+/**
+ * Created by wawru on 13.06.2023.
+ *
+ * @file Movingblock.cpp
+ *
+ * Implementation of methods declared in "Movingblock.h".
+ */
 
 #include "Movingblock.h"
 
 Movingblock::Movingblock(float pos_X, float pos_Y, float width, float height) : Block(pos_X, pos_Y, width, height)
 {
     shape.setPosition(pos_X, pos_Y);
-    shape.setSize(Vector2f(width, height));
-    shape.setFillColor(Color{128,128,128});
+    shape.setSize(sf::Vector2f(width, height));
+    shape.setFillColor(sf::Color{128,128,128});
     shape.setOrigin((width/ 2.f), (height/2.f));
 }
 
@@ -32,7 +36,7 @@ void Movingblock::move(){
 void Movingblock::restore_velocity() {
     movingblock_velocity = 3.0f;
 }
-Vector2f Movingblock::get_position() {
+sf::Vector2f Movingblock::get_position() {
     return shape.getPosition();
 }
 void Movingblock::movingblock_stop_game() {

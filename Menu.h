@@ -1,37 +1,124 @@
-//
-// Created by adm on 20.05.2023.
-//
+/**
+* Created by adm on 20.05.2023.
+*
+* Declaration of methods implemented in "Menu.cpp".
+*
+* This class represents a menu in a game.
+* The menu contains options for the main menu and the end menu.
+* The main menu allows the player to navigate and select options.
+* The end menu displays the final results of the game.
+* Contains methods for drawing the menu, handling navigation, and returning selected options.
+*/
 
 #ifndef PROJEKT_MENU_H
 #define PROJEKT_MENU_H
 
 #include <SFML/Graphics.hpp>
 
-using namespace sf;
-using namespace std;
 
 class Menu {
+
 public:
-    Text main_menu[3];   //array containing the main menu
-    Text end_menu[3];  // array containing the final menu
-    Menu(float width, float height);  // menu constructor
-    void draw(RenderWindow &window);        //function that draw main menu window
-    void draw_end_menu(RenderWindow &window);   //funcition that draw end menu window
-    void move_up();  //function responsible for change slection when press up arrow
-    void move_down();    //function responsible for change slection when press down arrow
-    void move_left();    //function responsible for change slection when press left arrow
-    void move_right();   //function responsible for change slection when press right arrow
-    void all_on_white();    //function responsible change text color on white
-    int pressed()       //function that returns the selected options in the menu
+
+    /**
+     * Constructor for the Menu class.
+     *
+     * @param width The width of the menu window.
+     * @param height The height of the menu window.
+     */
+    Menu(float width, float height);
+
+
+    /**
+     * Array containing the main menu options
+     */
+    sf::Text main_menu[3];
+
+
+    /**
+     * Array containing the end menu options
+     */
+    sf::Text end_menu[3];
+
+
+
+    /**
+     * Draws the main menu on the specified render window.
+     *
+     * @param window The render window to draw the main menu on.
+     */
+    void draw(sf::RenderWindow &window);
+
+
+    /**
+     * Draws the end menu on the specified render window.
+     *
+     * @param window The render window to draw the end menu on.
+     */
+    void draw_end_menu(sf::RenderWindow &window);
+
+
+    /**
+     * Moves the menu selection up.
+     * Changes the currently selected option when the up arrow key is pressed.
+     */
+    void move_up();
+
+
+    /**
+     * Moves the menu selection down.
+     * Changes the currently selected option when the down arrow key is pressed.
+     */
+    void move_down();
+
+    /**
+     * Moves the menu selection to the left.
+     * Changes the currently selected option when the left arrow key is pressed.
+     */
+    void move_left();
+
+
+    /**
+     * Moves the menu selection to the right.
+     * Changes the currently selected option when the right arrow key is pressed.
+     */
+    void move_right();
+
+
+    /**
+     * Changes the text color of all options to white.
+     */
+    void all_on_white();
+
+
+    /**
+     * Returns the selected option in the menu.
+     *
+     * @return The index of the selected option.
+     */
+    int pressed()
     {
         return selected;
     }
 
-    ~Menu();  //menu destructor
+
+    /**
+     * Destructor for the Menu class.
+     */
+    ~Menu();
 
 private:
-    int selected;  //variable specifying the player's current selection
-    Font font;  //variable specyfying font
+
+    /**
+     * Variable specifying the player's current selection
+     */
+    int selected;
+
+
+    /**
+     * Variable specifying the font
+     */
+    sf::Font font;
 
 };
 

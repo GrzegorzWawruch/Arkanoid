@@ -1,6 +1,11 @@
-//
-// Created by adm on 19.05.2023.
-//
+/**
+ * Created by adm on 19.05.2023.
+ *
+ * @file Ball.cpp
+ *
+ * Implementation of methods declared in "Ball.h".
+ */
+
 
 #include "Ball.h"
 
@@ -14,7 +19,7 @@ Ball::Ball(float pos_X, float pos_Y) {
 }
 void Ball::settings() {
     shape.setRadius(this->ball_radius);
-    shape.setFillColor(Color::Red);
+    shape.setFillColor(sf::Color::Red);
     //ustawienie położenie punktu odniesienia, czyli wskazanie na środek piłki
     shape.setOrigin(this->ball_radius, this->ball_radius);
 }
@@ -23,7 +28,7 @@ const sf::CircleShape &Ball::get_shape() const {
     return shape;
 }
 
-void Ball::draw(RenderTarget &target, RenderStates state) const {
+void Ball::draw(sf::RenderTarget &target, sf::RenderStates state) const {
     target.draw(this->shape, state);
 }
 
@@ -79,7 +84,7 @@ void Ball::move_left_ball() {
 }
 
 void Ball::under_paddle() {
-    this->shape.setFillColor(Color::Black);
+    this->shape.setFillColor(sf::Color::Black);
     this->velocity.x = 0;
     this->velocity.y = 0;
 
@@ -106,12 +111,12 @@ void Ball::stop_game() {
         }
     }
 
-Vector2f Ball::getPosition() {
+sf::Vector2f Ball::getPosition() {
     return shape.getPosition();
 }
 
 void Ball::reset_ball() {
-    shape.setFillColor(Color::Red);
+    shape.setFillColor(sf::Color::Red);
     shape.setPosition(825, 525);
     this->velocity.x = 0.0f;
     this->velocity.y = 5.0f;

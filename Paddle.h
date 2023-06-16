@@ -1,14 +1,21 @@
-//
-// Created by adm on 19.05.2023.
-//
+/**
+*
+ * Created by adm on 19.05.2023.
+*
+    * Declaration of methods implemented in "Paddle.cpp".
+*
+    * This class represents a paddle in a game.
+    * The paddle can be controlled by the player and is used to hit a ball.
+    * It has methods for updating its position, handling user input,
+* and retrieving information about its position and shape.
+    */
 
 #ifndef PROJEKT_PADDLE_H
 #define PROJEKT_PADDLE_H
 
+
 #include <SFML/Graphics.hpp>
 
-
-using namespace sf;
 
 class Paddle{
 
